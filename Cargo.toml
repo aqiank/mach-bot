@@ -1,0 +1,12 @@
+[package]
+name = "mach-bot"
+version = "0.1.0"
+authors = ["Jacky Boen <jacky@veand.co>"]
+
+[[bin]]
+name = "mach-bot"
+path = "src/bin.rs"
+
+[dependencies]
+irc = "0.12"
+clap = "2"
